@@ -1,7 +1,7 @@
 ouster_driver:
   ros__parameters:
-    lidar_ip: 10.5.5.96 
-    computer_ip: 10.5.5.1   
+    lidar_ip: 192.168.4.16
+    computer_ip: 192.168.4.200
     lidar_mode: "1024x10"
     imu_port: 7503
     lidar_port: 7502
@@ -11,7 +11,7 @@ ouster_driver:
     
     # The ethernet device the packets are being broadcast through. Only used
     # by the "tins" driver type.
-    ethernet_device: eth1
+    ethernet_device: ASIX Electronics Corp. AX88179 Gigabit Ethernet
 
     # if False, data are published with sensor data QoS. This is preferrable
     # for production but default QoS is needed for rosbag.
